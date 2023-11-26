@@ -1,0 +1,18 @@
+.active {
+  color: blue;
+}
+
+.selected {
+  color: brown;
+}
+
+.some {
+  background-color: rgb(255, 0, 0);
+  border-radius: 4px;
+}
+
+.third {
+  color: #a9b3aa;
+}
+
+
