@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация и вход</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="background-container">
+        <div id="registrationForm" class="form-container">
+            <h2>Регистрация</h2>
+            <form id="registerForm">
+                <label for="regEmail">Email:</label>
+                <input type="text" id="regEmail" required>
+
+                <label for="regUsername">Имя пользователя:</label>
+                <input type="text" id="regUsername" required>
+
+                <label for="regPassword">Пароль:</label>
+                <input type="password" id="regPassword" required>
+
+                <label for="confirmPassword">Подтверждение пароля:</label>
+                <input type="password" id="confirmPassword" required>
+
+                <button type="button" onclick="register()">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="background-container">
+        <div id="loginForm" class="form-container">
+            <h2>Вход</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label>
+                <input type="text" id="loginEmail" required>
+
+                <label for="loginUsername">Имя пользователя:</label>
+                <input type="text" id="loginUsername" required>
+
+                <label for="loginPassword">Пароль:</label>
+                <input type="password" id="loginPassword" required>
+
+                <button type="button" onclick="login()">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
